@@ -1,0 +1,58 @@
+$mirman-blue: #0064ff
+$default-bg-color: #474747
+$default-text-color: white
+$primaryColor: $mirman-blue
+
+@font-face
+  font-family: "GuardianSansLight"
+  src: url("../fonts/GuardianSans-Light-Web.woff")
+
+@font-face
+  font-family: "GuardianSans"
+  src: url("../fonts/GuardianSans-Bold-Web.woff")
+
+body
+  background: $default-bg-color
+  color: $default-text-color
+  font-family: "GuardianSansLight"
+  font-size: 18px
+
+h1,h2,h3
+  font-family: "GuardianSans"
+  color: $default-text-color!important
+
+.ui.header
+  color: $default-text-color
+
+.ui.label
+  color: $default_text_color!important
+  font-size: 18px!important
+  background: none!important
+  &.transition.visible
+    background: black!important
+
+.button .red
+    margin-left: 15px!important
+
+.accordion .title
+  color: $default-text-color!important
+
+.modal
+  background: black!important
+
+.offering
+  padding-bottom: 10px
+
+p
+  font-size: 1.2em
+
+a
+  color: darken($default-text-color,20%)
+  &:active
+    color: darken($default-text-color,20%)
+  &:hover
+    color: $default-text-color
+
+i
+  &.circular.icon
+    box-shadow: 0em 0em 0em 0.1em rgba(255,255,255,0.1) inset

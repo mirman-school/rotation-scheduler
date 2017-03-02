@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "GuardianSansLight";
+  src: url("../fonts/GuardianSans-Light-Web.woff"); }
+
+@font-face {
+  font-family: "GuardianSans";
+  src: url("../fonts/GuardianSans-Bold-Web.woff"); }
+
+body {
+  background: #474747;
+  color: white;
+  font-family: "GuardianSansLight";
+  font-size: 18px; }
+
+h1, h2, h3 {
+  font-family: "GuardianSans";
+  color: white !important; }
+
+.ui.header {
+  color: white; }
+
+.ui.label {
+  color: white !important;
+  font-size: 18px !important;
+  background: none !important; }
+  .ui.label.transition.visible {
+    background: black !important; }
+
+.button .red {
+  margin-left: 15px !important; }
+
+.accordion .title {
+  color: white !important; }
+
+.modal {
+  background: black !important; }
+
+.offering {
+  padding-bottom: 10px; }
+
+p {
+  font-size: 1.2em; }
+
+a {
+  color: #cccccc; }
+  a:active {
+    color: #cccccc; }
+  a:hover {
+    color: white; }
+
+i.circular.icon {
+  box-shadow: 0em 0em 0em 0.1em rgba(255, 255, 255, 0.1) inset; }
