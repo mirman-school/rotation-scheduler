@@ -50,7 +50,7 @@ class App extends React.Component {
   _googleResponse(res) {
     const siteConfig = config().site;
     const email = res.getBasicProfile().getEmail();
-    if(email.match(siteConfig.teacherDomain)) {
+    if(email.match(siteConfig.teacherDomain) || email.match(siteConfig.studentDomain)) {
       console.log("Authenticated");
       this._checkAuth();
       this.setState({authenticated:true, userEmail:email});
